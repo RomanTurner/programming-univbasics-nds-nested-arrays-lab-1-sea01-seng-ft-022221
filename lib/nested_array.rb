@@ -23,8 +23,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  sorted_storage = CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE
-  sorted_storage.sort 
+  sorted_storage = CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort
   sorted_storage
 end
 
